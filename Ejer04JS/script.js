@@ -94,15 +94,39 @@
 
 
 
+// for(let i=0; i<24; i++){
+
+//     let hora = i;
+//     let mensaje = "Son las " + hora + ":00,";
+    
+//     if(i>=8 && i<23){
+//         mensaje = mensaje + " CUCÚ!";
+//     }
+
+//     console.log(mensaje);
+//  }
+
+
+  
 for(let i=0; i<24; i++){
 
     let hora = i;
-    let mensaje = "Son las " + hora + ":00,";
-
-    if(i>=8 && i<23){
-        mensaje = mensaje + " CUCÚ!";
+    let mensaje = "Son las " + hora + ":00.";
+    
+    if(i>=8 && i<=12){
+        let cucu = i%24;
+        for(let b = 0; b < cucu; b++){
+            mensaje = mensaje + " CUCÚ!";
+        }
+    }
+        else if(i>=13 && i<23){
+                let cucuFormato = i%12;
+            for(let c = 0; c < cucuFormato; c++){
+                mensaje = mensaje + " CUCÚ!";
+        }
     }
     console.log(mensaje);
- }
+}
 
-
+ // Cucu se repite el mismo número de veces entre las 8 y las 12.
+ // debo de conseguir que i = hora = cucu entre las 8 y las 12
