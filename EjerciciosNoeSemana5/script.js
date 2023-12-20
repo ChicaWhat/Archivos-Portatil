@@ -18,9 +18,8 @@ function saludarUsuario (nombre) {
 saludarUsuario('Sofi');
 saludarUsuario("Pepito Grillo");
 
-/*  He creado una función cuyo nombre es saludarUsuario. El parámetro que voy a declarar es 'nombre'. Dentro de la función creo una variable mensaje que va a contener
-un string + el parámetro de mi función. Esta variable aparecerá en consola con mi console.log. Cierro la función, porque ya he definido lo que quiero que llevo a cabo.
-Fuera de esta, aparecerá la variable mensaje que he creado para saludarUsuario tantas veces como yo quiera cada vez que mencione a la función. */
+/*  He creado una función cuyo nombre es saludarUsuario. El parámetro que voy a declarar es 'nombre'. Dentro de la función creo una variable mensaje que va a contener un string + el parámetro de mi función. Esta variable aparecerá en consola con mi console.log. Cierro la función, porque ya he definido lo que quiero que lleve a cabo.
+Fuera de esta, nombraré a mi función tantas veces como yo quiera con el argumento que quiera que aparezca dentro de la variable mensaje. */
 
 // - Ejercicio 02 - //
 
