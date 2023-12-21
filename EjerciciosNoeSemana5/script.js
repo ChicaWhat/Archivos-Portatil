@@ -32,7 +32,7 @@ function saludarUsuario () {
     console.log(saludo);
 }
 
-saludarUsuario();
+// saludarUsuario();
 
 
 
@@ -50,9 +50,8 @@ saludarUsuario();
     console.log(resultado);
 }
 
-porcentaje(100);
-porcentaje(478);
-porcentaje(7);
+// porcentaje(100);
+
 
 
 // - Ejercicio 03 - //
@@ -62,7 +61,47 @@ function areaTriangulo (base, altura) {
     console.log(resultado); 
 }
 
-areaTriangulo(10, 7);
-areaTriangulo(20, 5); 
+// areaTriangulo(10, 7);
+// areaTriangulo(20, 5); 
 
 // No puede ser tan fácil... 
+
+// EJERCICIO: crear un array con los siguientes números: 1200, 650, 70, 20, 900, 730, 150, 583, 710. Deberás mostrar los números mayores que 200 y menores que 800.
+
+
+
+function condicion(){
+
+    // Tengo un array llamado 'números' que contiene 9 elementos. 
+    // Cada elemento se encuentra dentro de un índice.
+    const numeros = [1200, 650, 70, 20, 900, 730, 150, 583, 710];
+    // 0 a 8. Esos son los índices
+    console.log(numeros)
+
+                    // 8 < 9
+    for (let i = 0; i < numeros.length; i++){
+        /* let rango = i;
+        console.log(numeros[rango]); */
+        console.log(numeros[i]);
+
+        if(numeros[i] > 200 && numeros[i] <800){
+            console.log(`Estos son los números entre 200 y 800: ${numeros[i]}`); 
+        }
+    }
+} 
+
+condicion();
+
+// Un índice en un array es la posición de un elemento dentro de un array. Los índices comienzan siempre desde 0 y esto quiere decir que el primer elemento de un array está en el indice 0, el segundo en el 1. Así sucesivamente.
+// Con .lenght obtenemos el número total de elementos que contiene el array elegido.
+
+/* El bucleo que he creado significa que, si el índice es menor que el número de elementos que contiene el array, se vaya icrementando +1 en cada vuelta y me los muestre en consola.
+1ª vuelta: el índice = 0, contiene el primer elemento: 1200.
+2ª vuelta: el índice = 1, contiene el segundo elemento: 650.
+3ª vuelta: el índice = 2, contiene el tercer elemento: 70.
+4ª vuelta: el índice = 3, contiene el cuarto elemento: 20.
+5ª vuelta: el índice = 4, contiene el quinto elemento: 900.
+6ª vuelta: el índice = 5, contiene el sexto elemento: 730.
+7ª vuelta: el índice = 6, contiene el séptimo elemento: 150.
+8ª vuelta: el índice = 7, contiene el octavo elemento: 583.
+9ª vuelta: el índice = 8, contiene el noveno elemento: 710. */
