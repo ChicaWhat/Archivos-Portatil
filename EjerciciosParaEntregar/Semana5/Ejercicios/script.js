@@ -92,17 +92,52 @@ Ejecuta esa función pasándole como parámetro el Array names e imprime en la c
 Debería imprimir esto: */
 
 
-function quitarDuplicados (array){
+/* function quitarDuplicados (array){
 
   const lista = new Set(array);
-  // console.log(lista);
+  console.log(lista);
 
-  const arrayLista = Array.from(lista);
+   const arrayLista = Array.from(lista);
 
   return arrayLista;
+} 
+
+
+console.log(quitarDuplicados(names));   */
+
+
+
+  const pizzas = [
+  "margarita",
+  "cuatro quesos",
+  "prosciutto",
+  "carbonara",
+  "barbacoa",
+  "tropical",
+];
+
+
+function combine(pizzas) {
+    const combinations = [];
+
+    // Escribe aquí tu código
+
+
+    for (let i = 0; i < pizzas.length; i++){
+
+      for (let x = i + 1; x < pizzas.length; x++){
+        
+        if( pizzas[i] != pizzas[x]){
+          const combination = `${pizzas[i]} y ${pizzas[x]}`;
+          combinations.push(combination);
+        }
+      }
+    }
+
+    return combinations;
 }
 
-console.log(quitarDuplicados(names));
+console.log(combine(pizzas));
 
 
 
