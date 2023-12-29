@@ -42,12 +42,12 @@ const people = [
 
 ];
 
-console.log(people);
+/* console.log(people);
 
 // Escribe aquí tu código
 
 
-/* function imprimir (name, age) {
+ function imprimir (name, age) {
 
     if ( age >= 18 ){
       console.log(`${name} es mayor de edad`);
@@ -62,7 +62,7 @@ console.log(people);
 
 for ( let persona of people){
   imprimir(persona.name, persona.age);
-} */
+}  */
 
 // - Ejercicio 2 - //
 
@@ -94,17 +94,18 @@ Ejecuta esa función pasándole como parámetro el Array names e imprime en la c
 Debería imprimir esto: */
 
 
-/* function quitarDuplicados (array){
+function quitarDuplicados (array){
 
   const lista = new Set(array);
   console.log(lista);
 
-   const arrayLista = Array.from(lista);
+    const arrayLista = Array.from(lista);
+    console.log(names);
 
-  return arrayLista;
+  return arrayLista; 
 } 
 
-console.log(quitarDuplicados(names));   */
+console.log(quitarDuplicados(names));
 
 
 
