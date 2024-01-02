@@ -11,7 +11,7 @@ const firstRound = [
     { team: "Orcas Moradas", scores: [2, 3, 3, 4] },
 ]
 
-const arraySumarPuntos = [];
+/* const arraySumarPuntos = [];
 
 for ( const primerRound of firstRound ){
 
@@ -43,4 +43,4 @@ const mejorYPeorEquipo = ((puntuacion, equipo) => {
 
 })
 
-mejorYPeorEquipo();
+mejorYPeorEquipo(); */
