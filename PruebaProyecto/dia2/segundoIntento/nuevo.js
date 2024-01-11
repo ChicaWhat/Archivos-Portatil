@@ -12,7 +12,9 @@ const position = (localizacion) => {
 
     console.log(`Tus coordenadas son: ${latitud}, ${longitud}`);
 
-    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitude=${longitud}&hourly=temperature_2m,rain&daily=precipitation_hours&timezone=auto&forecast_hours=8`)
+const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitude=${longitud}&hourly=temperature_2m,rain&daily=precipitation_hours&timezone=auto&forecast_hours=8`
+
+    fetch(url)
     .then(response => {
         if(!response.ok){
             throw new Error(`Error en la solicitud ${response.status}`)
@@ -36,7 +38,7 @@ const position = (localizacion) => {
         console.log(probabilidadDePrecipitaciones);
     
 // Se crea el bucle que vaya a iterar en cada una de las 8 horas que queremos analizar
-            for(let i = 1; i < intervalo8H.length; i++){
+            for(let i = 0; i < intervalo8H.length; i++){
 // Como queremos señalar SOLO a la hora, hay que jugar un poco con el método new Date y crear una constante donde nos saque SOLO la hora
                 let fechaYHoraActual = new Date(intervalo8H[i]);
                 // console.log(fechaYHoraActual);
@@ -53,7 +55,9 @@ const position = (localizacion) => {
                }
 // En el else se debe de crear una nueva lista que contenga este mensaje??? 
                else {
-                nuevaLista.textContent = `A las ${soloHoras}:00 va a llover`
+                const nuevaLista1 = document.createElement('li');
+                nuevaLista1.textContent = `A las ${soloHoras}:00 va a llover`
+                weatherHours.appendChild(nuevaLista1); 
                }
             }
 
@@ -71,6 +75,7 @@ const position = (localizacion) => {
             // }
 
         })
+
 }
 
 // Aquí creo la función del callback geoError con sus 3 posibilidades de error que viene en el enlace(2).
@@ -94,7 +99,7 @@ const geoError = (error) => {
             };
 
 
-button.addEventListener('click', () => {;
-    navigator.geolocation.getCurrentPosition(position, geoError);
-});
-
+button.addEventListener('click', () => {
+    navigator.geolocation.getCurrentPosition
+    (position, geoError);
+}, {once:true});
