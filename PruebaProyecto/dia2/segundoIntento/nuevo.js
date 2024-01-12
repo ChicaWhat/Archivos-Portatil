@@ -12,7 +12,7 @@ const position = (localizacion) => {
 
     console.log(`Tus coordenadas son: ${latitud}, ${longitud}`);
 
-const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitude=${longitud}&hourly=temperature_2m,rain&daily=precipitation_hours&timezone=auto&forecast_hours=8`
+const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitude=${longitud}&current=precipitation&hourly=temperature_2m,precipitation_probability,rain&daily=precipitation_hours&timezone=auto&forecast_hours=8`
 
     fetch(url)
     .then(response => {
@@ -32,7 +32,7 @@ const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitud
 // Se buscan los datos necesarios para el botón. En este caso la lluvia, las 8 horas y las probabilidades de lluvia x hora.
         const previsionLluvia = data.hourly.rain;
         const intervalo8H = data.hourly.time;
-        const probabilidadDePrecipitaciones = data.daily.precipitation_hours;
+        const probabilidadDePrecipitaciones = data.hourly.precipitation_probability;
 
         console.log(intervalo8H);
         console.log(probabilidadDePrecipitaciones);
@@ -60,22 +60,7 @@ const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitud}&longitud
                 weatherHours.appendChild(nuevaLista1); 
                }
             }
-
-            // for (let i = 0; i < previsionLluvia.length; i++){
-            // // console.log(previsionLluvia[i]);
-
-            //     if(previsionLluvia[i] > 0){
-            //         console.log("En las próximas 8 horas lloverá");
-            //         weatherStatus.textContent = `Si, en las próximas 8 horas puede llover `;
-            //     }
-            //     else {
-            //         console.log("En las próximas 8 horas no lloverá");
-            //         weatherStatus.textContent = `No, en las próximas 8 horas no va a llover `;
-            //     }
-            // }
-
         })
-
 }
 
 // Aquí creo la función del callback geoError con sus 3 posibilidades de error que viene en el enlace(2).
