@@ -154,3 +154,4 @@ const numeroAleatorioFinal =  Math.floor( Math.random() * (valorMax - valorMin +
                 
 // * El Math.floor redondeará hacia abajo logrando tener como resultado un número entero entre el rango de [0, 5)
 console.log(numeroAleatorioFinal);
+

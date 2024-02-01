@@ -1,0 +1,33 @@
+import mysql from 'mysql2/promise';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const { MYSQL_HOTS, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE } = process.env;
+let pool;
+
+const getPool = async () => {
+
+    try {
+        
+        if(!pool){
+            pool = mysql.createPool({
+                connectionLimit: 10,
+                host: MYSQL_HOTS,
+                user: MYSQL_USER,
+                password: MYSQL_PASSWORD,
+                database: MYSQL_DATABASE,
+                timezone: 'Z'
+            })
+
+        }
+
+        return await pool;
+
+    } catch (error) {
+        console.log(error);
+    }
+
+}
+
+export default getPool;
