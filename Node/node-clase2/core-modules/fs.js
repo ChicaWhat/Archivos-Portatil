@@ -78,12 +78,12 @@ const deleteFile = async (fileName) => {
     }
 }
 
-//checkFile('./src/database/creadsssso.txt');
-//createDirectory();
-//readDirectory();
+checkFile('./src/database/creadsssso.txt');
+createDirectory();
+readDirectory();
 readFile('./src/database/creado.txt');
-//writeFile('./src/database/creado.txt','Otra cosa que estoy escribiendo');
-//modifyFile( './src/database/creado.txt','Otra cosa que estoy escribiendo');
-//modifyFile('./lectura.txt','agrego algo nuevo en este archivo');
-// const pathFile = path.join('./','lectura.txt');
-// deleteFile(pathFile);
+writeFile('./src/database/creado.txt','Otra cosa que estoy escribiendo');
+modifyFile( './src/database/creado.txt','Otra cosa que estoy escribiendo');
+modifyFile('./lectura.txt','agrego algo nuevo en este archivo');
+ const pathFile = path.join('./','lectura.txt');
+ deleteFile(pathFile);
