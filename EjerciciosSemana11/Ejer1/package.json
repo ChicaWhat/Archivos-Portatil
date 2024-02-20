@@ -1,9 +1,8 @@
 {
-  "type": "module",
-  "name": "ejer1",
+  "name": "ejerciciossemana11",
   "version": "1.0.0",
   "description": "",
-  "main": "arguments.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
