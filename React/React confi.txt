@@ -1,0 +1,7 @@
+React confi
+- npm create vite@latest ./
+	- React
+	- Js
+
+- npm i
+- npm run dev

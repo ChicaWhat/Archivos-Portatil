@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --color-blue: rgb(0, 13, 255);
+}
+
+/* Nuestro padre es el root, no el main */
+
+div#root {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+
