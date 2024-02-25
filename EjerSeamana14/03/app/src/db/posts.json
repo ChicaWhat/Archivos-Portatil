@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "content": "Este viernes organizaremos un taller para aprender juntos Rust 🚀.",
+    "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///+Ojo6qqqooKCjb29vx8fH09PRYWFjj4+Pm5uaysrLp6elkZGSVlZXe3t48PDyLi4vDw8OdnZ3Ly8syMjIcHBzR0dERERFtbW17e3u7u7uDg4MkJCRHR0eioqJMTEwdHR1oaGg4ODhSUlJ1dXUWFhZ+fn4ca285AAADuElEQVR4nO3Y6XaqMABGUYsWQREHcKjzbdW+/xteIGFIDFptxbTr7F9IYlY+EkKg1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjD/rWtE/5sws6LdYZ/PuErCUlIwqcjIQlJ+G1dwe3e24D1CSPZsntvA9YnnIqGvbsbsD2hLxte3d2C7Qkd2fDdt6H1CRei3bf7W2gk4SDlJWtF4KVHN3R3LtudWJ5QlCUTLc4Otl/v3lq2e3/ARhL6RdEqO7phDGWzS8sTliMnviiE1cL3SxMwls3OTYXzt/QZuQp7z0/Yz4rScVhmR/1qYau1WL/W9e4oWl2clwydjdgFJI3v+5dW2gcn3IVhGHlZkReF0Ud2dIySk2XCxDQKTJ3rylbH2nm3PcrOu8XluzATHpxwU1dxoyRMbA0DMZFl6hivvPw/ZcJE3Ux4cMJpXcWpnjAx0AdiIM7PKqfiY+UPSsLkqhlvSZsSJtbVNSWfpMXKNBzPlNpawsS+fbZDf3pCTyvohH5elHdenAh2I63qNp3X8UI7q8+EByc81VU8FVXc9lYry7t4ED9HYvy0StNdvjjNP7WiUZMJe77fE0OxDfxA7FDWgZ+o1nLV4ZEJXflzd56wE6l3XLx8WsJU+TgUF7tvqPPiyydJJWFb/gy0hB3HtGpO3p6XsNzI7LOj2JQw7WO+jMiEclwPL2pC4wVKdfNltvGEx6Jj4q70DXWUdUQk7KmJyjGchkNDA/GxWHKaTNgLgsAVXV8FgezzMD2pVNMWG5FQ+0Cj3If6HkhdbBpM6NbWW5eVuv2DVigSah9o9LV0tMuv0utYK/qwIWG509SfhxvHVzpWfKAJIv3hus+ehzPtrLdSt39PT6ieXxZ7mvwDjdLZtfp4P9/TbBve09yYcFD9oCb37PrbcuWhcJbw5JgWMWsSjtrK5Lrwgaa8b5WES+Nr8oMTdseOE4r+eKETdkRPQsdxyo6Lv4X61c8XR2Ong91US3j2WtJQwox4HKYTUHRLy9IyX33Z3mdtv9PXDJnQcPM1mlCMYVy8DGnF5qufv/vWzLxM/J59pxkbdxBNJhRzM9kpB8aEZnI9mV2vedXDE5YjJxaP0XkfDGRzzm9I6G69xCA5muyTg8OXOr2SzdV+hLMp4V3kB5rp9ZrXWZnw7APNd1iZMH/3vbJKfo2VCftRZvcjjVmZ8EeRkIQkfD4SkpCEz0fC35/Qv97rW5wc6yyv9xoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAX+w/KhzvyuhLvawAAAABJRU5ErkJggg==",
+    "username": "HACK A BOSS",
+    "likes": 10
+  },
+  {
+    "id": 2,
+    "content": "Utiliza Chat GPT con precaución si estás aprendiendo. Es importante que sepas resolver los problemas por ti mismo",
+    "avatar": "https://www.zonebourse.com/images/ImagesTagged/zbimg_2786802_800.jpg",
+    "username": "Sam Altman",
+    "likes": 23
+  },
+  {
+    "id": 3,
+    "content": "¡La nueva versión de Next.JS me encanta! Echadle un vistazo al App Router",
+    "avatar": "https://media.licdn.com/dms/image/C4E03AQFVN_NBqejerA/profile-displayphoto-shrink_800_800/0/1640628836049?e=1710979200&v=beta&t=2cwqddp2jQXKrjE1Vjm5sPIEdTooQ5mVREGxsntUPCg",
+    "username": "Samu Rodríguez",
+    "likes": 15
+  },
+  {
+    "id": 4,
+    "content": "El sector tecnológico está en constante iteración. Todos los días aparecen cosas nuevas que exigen flexibilidad y dinamismo. Los perfiles junior ayudan a desbloquear problemas con su visión fresca",
+    "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///+Ojo6qqqooKCjb29vx8fH09PRYWFjj4+Pm5uaysrLp6elkZGSVlZXe3t48PDyLi4vDw8OdnZ3Ly8syMjIcHBzR0dERERFtbW17e3u7u7uDg4MkJCRHR0eioqJMTEwdHR1oaGg4ODhSUlJ1dXUWFhZ+fn4ca285AAADuElEQVR4nO3Y6XaqMABGUYsWQREHcKjzbdW+/xteIGFIDFptxbTr7F9IYlY+EkKg1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjD/rWtE/5sws6LdYZ/PuErCUlIwqcjIQlJ+G1dwe3e24D1CSPZsntvA9YnnIqGvbsbsD2hLxte3d2C7Qkd2fDdt6H1CRei3bf7W2gk4SDlJWtF4KVHN3R3LtudWJ5QlCUTLc4Otl/v3lq2e3/ARhL6RdEqO7phDGWzS8sTliMnviiE1cL3SxMwls3OTYXzt/QZuQp7z0/Yz4rScVhmR/1qYau1WL/W9e4oWl2clwydjdgFJI3v+5dW2gcn3IVhGHlZkReF0Ud2dIySk2XCxDQKTJ3rylbH2nm3PcrOu8XluzATHpxwU1dxoyRMbA0DMZFl6hivvPw/ZcJE3Ux4cMJpXcWpnjAx0AdiIM7PKqfiY+UPSsLkqhlvSZsSJtbVNSWfpMXKNBzPlNpawsS+fbZDf3pCTyvohH5elHdenAh2I63qNp3X8UI7q8+EByc81VU8FVXc9lYry7t4ED9HYvy0StNdvjjNP7WiUZMJe77fE0OxDfxA7FDWgZ+o1nLV4ZEJXflzd56wE6l3XLx8WsJU+TgUF7tvqPPiyydJJWFb/gy0hB3HtGpO3p6XsNzI7LOj2JQw7WO+jMiEclwPL2pC4wVKdfNltvGEx6Jj4q70DXWUdUQk7KmJyjGchkNDA/GxWHKaTNgLgsAVXV8FgezzMD2pVNMWG5FQ+0Cj3If6HkhdbBpM6NbWW5eVuv2DVigSah9o9LV0tMuv0utYK/qwIWG509SfhxvHVzpWfKAJIv3hus+ehzPtrLdSt39PT6ieXxZ7mvwDjdLZtfp4P9/TbBve09yYcFD9oCb37PrbcuWhcJbw5JgWMWsSjtrK5Lrwgaa8b5WES+Nr8oMTdseOE4r+eKETdkRPQsdxyo6Lv4X61c8XR2Ong91US3j2WtJQwox4HKYTUHRLy9IyX33Z3mdtv9PXDJnQcPM1mlCMYVy8DGnF5qufv/vWzLxM/J59pxkbdxBNJhRzM9kpB8aEZnI9mV2vedXDE5YjJxaP0XkfDGRzzm9I6G69xCA5muyTg8OXOr2SzdV+hLMp4V3kB5rp9ZrXWZnw7APNd1iZMH/3vbJKfo2VCftRZvcjjVmZ8EeRkIQkfD4SkpCEz0fC35/Qv97rW5wc6yyv9xoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAX+w/KhzvyuhLvawAAAABJRU5ErkJggg==",
+    "username": "HACK A BOSS",
+    "likes": 37
+  }
+]

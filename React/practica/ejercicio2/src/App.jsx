@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 
 // Creamos el componente App.
 const App = () => {
+    
     return (
         <>
             <Header />

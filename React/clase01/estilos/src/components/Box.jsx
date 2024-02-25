@@ -30,3 +30,6 @@ Box.propTypes = {
 };
 
 export default Box;
+
+// El prop children siempre va a adoptar el contenido que se le vaya a añadir a la etiqueta <Box></Box> (en este caso se llama así la etiqueta porque hemos creado una constante con ese nombre).
+// Al retornar el componente div con el parámetro children, estamos diciendo que en el <div> va a haber lo que pongamos dentro de la etiqueta <Box>, porque esta contiene el prop children.

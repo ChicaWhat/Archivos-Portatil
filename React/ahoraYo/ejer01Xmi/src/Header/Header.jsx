@@ -1,8 +1,11 @@
+// Componente Header
 const Header = () => {
-    return (
+    // Importamos la variable de entorno correspondiente
+    const { VITE_COMPANY_NAME } = import.meta.env.VITE_COMPANY_NAME;
 
+    return (
         <header>
-            <h1>Task List</h1>
+            <h1>{VITE_COMPANY_NAME}</h1>
         </header>
     );
 };

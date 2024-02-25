@@ -1,6 +1,9 @@
+// Componente Footer
 const Footer = () => {
     return (
-        <footer>HACK A BOSS 2024</footer>
+        <footer>
+            <p>HACK A BOSS 2024</p>
+        </footer>
     );
 };
 

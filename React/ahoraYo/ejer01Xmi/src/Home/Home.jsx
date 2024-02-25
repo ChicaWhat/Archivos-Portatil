@@ -1,18 +1,16 @@
 // Importamos las prop-types
 import PropTypes from 'prop-types';
 
-// Componente Home que va a tener un array de tareas
-const Home = ( {tasks} ) => {
-    // Creamos un array de <li> para cada elemento del array de tasks
-    const tasksLi = tasks.map((task) => {
-        return <li key={task.id}></li>
-    })
+// Componente Home que va a recibir como prop el array de tareas
+const Home = ({ tasks }) => {
     return (
         <main>
             <h2>Lista de todas las tareas</h2>
 
             <ul>
-                {tasksLi}
+                {tasks.map((task) => {
+                    return <li key={task.id}>{task.text}</li>;
+                })}
             </ul>
         </main>
     );

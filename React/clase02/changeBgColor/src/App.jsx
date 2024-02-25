@@ -5,6 +5,7 @@ const App = () => {
 
     // Creamos nuestro propio estilo para establecer el color de fondo del main.
     const style = {
+        // todas las propiedades de CSS pasan a ser lowerCamelCase
         backgroundColor: `rgb(${randomValue()}, ${randomValue()}, ${randomValue()})`,
     };
 
